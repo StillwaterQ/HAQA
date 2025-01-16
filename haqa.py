@@ -91,7 +91,6 @@ class haqa():
     def properly_combine_two_communities(self, communities):
         new_communities_list = []
         new_communities_Q_plus_wEV_list = []
-        # 对于每一对社区
         for i in range(len(self.communities)):
             for j in range(i + 1, len(communities)):
                 # combine to new community
