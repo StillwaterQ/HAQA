@@ -1,12 +1,13 @@
 # HAQA
-HAQA is A Hardware-Guided and Fidelity-Aware Strategy for Efficient Qubit Mapping Optimization, this repository contains HAQA's main code.
+HAQA is a hardware-guided and fidelity-aware strategy for efficient qubit mapping optimization and can be used in multiple solver-based mapping methods.
+This repository contains HAQA's main code.
 
 The main contribution of HAQA is:
-1. **Introduced a hardware-oriented region identification mechanism**  
-   A community-based iterative region identification strategy was developed, leveraging quantum hardware connectivity to reduce mapping space dimensionality and avoid global search processes.
+1. HAQA introduced a hardware-oriented region identification mechanism
+   A community-based iterative region identification strategy is developed in HAQA, leveraging quantum hardware connectivity to reduce mapping space dimensionality and avoid global search processes.
 
-2. **Proposed a hardware-characteristic-based region evaluation mechanism**  
-   Enabled quantitative selection of mapping regions based on fidelity metrics, addressing the limitations of existing solvers in considering hardware fidelity characteristics.
+2. HAQA proposed a hardware-characteristic-based region evaluation mechanism
+   HAQA eables quantitative selection of mapping regions based on fidelity metrics, addressing the limitations of existing solvers in considering hardware fidelity characteristics.
 
-3. **Demonstrated polynomial-level acceleration potential**  
-   Provided computational complexity analysis showing significant theoretical acceleration in qubit mapping processes while adapting to increasingly complex quantum hardware architectures.
+3. HAQA demonstrated polynomial-level acceleration potential
+   HAQA provides computational complexity analysis showing significant theoretical acceleration in qubit mapping processes while adapting to increasingly complex quantum hardware architectures.
